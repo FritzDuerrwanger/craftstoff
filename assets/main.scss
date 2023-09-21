@@ -1,0 +1,214 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@import "styles";
+
+@font-face {
+    font-family: 'calibri';
+    src: url('fonts/calibri.ttf') format('truetype');
+    /* Add more font properties like font-weight, font-style, etc., if needed */
+}
+
+@font-face {
+    font-family: 'craft';
+    src: url('fonts/PrequelDemo-Regular.ttf') format('truetype');
+    /* Add more font properties like font-weight, font-style, etc., if needed */
+}
+
+.logo-container {
+
+    background-color: black;
+}
+
+.bg-palme {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 85vh;
+    width: auto;
+
+}
+
+.flasche {
+    height: 30vw;
+    width: auto;
+    display: block;
+    margin: auto;
+    border-radius: 1rem;
+    box-shadow: 5px 5px 15px 5px #000000;
+}
+
+.flasche2 {
+    height: 30vw;
+    width: auto;
+    display: block;
+    margin: auto;
+    border-radius: 1rem;
+}
+
+.bottom-band {
+    height: 2.5vh;
+    background-color: #de8703;
+    bottom: 0;
+}
+
+.top-band {
+    height: 2.5vh;
+    background-color: #de8703;
+    position: relative;
+    top: 0;
+  
+}
+.heading-dosen {
+   color: white;
+    padding-top: 2vw;
+    padding-bottom: 5vw;
+    text-align: center;
+}
+.videos-dosen {
+    background-color: #252525;
+}
+.video-dose {
+    margin-top: 10vh;
+    height: 20vw;
+    transition: transform .5s ease;
+    display: block;
+    margin: auto;
+}
+.video-dose:hover {
+    transform: scale(1.45);
+}
+
+.container-main-point {
+    background-color: #e6e6e6;
+    overflow-x: hidden;
+    p {
+        margin-top: 0px;
+    }
+}
+
+a {
+    color: #de8703;
+}
+a:hover {
+    color: #885100;
+}
+
+.text-marke {
+    padding: 3vh 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    font-family: calibri;
+}
+
+.craftstoff {
+    font-family: craft;
+    font-size: 30pt;
+
+}
+
+
+
+//mobile
+
+@media (min-width: 767px) {
+    .swiffy-slider {
+        display: none !important;
+    }
+
+}
+
+@media (max-width: 1000px) {
+    .bg-palme {
+        height: auto;
+        max-width: 100%;  
+    }
+}
+
+@media (max-width: 767px) {
+    .container-main-point {
+        .bottom-band {
+            margin-top: 1.5em;
+        }
+    }
+
+    .top-band {
+        height: 3vw;
+      
+    }
+    .bottom-band{
+        height: 3vw;
+    }
+    .bg-palme {
+      height: auto;
+      max-width: 100%;
+    }
+    .dosen-videos {
+        padding-top: 1.5em;
+    }
+
+    .flasche {
+        height: 40vh;
+        margin-bottom: 1.5em;
+        margin-top: 1.5em;
+    }
+    .flasche2 {
+        height: 40vh;
+        margin-bottom: 1.5em;
+        margin-top: 1.5em;
+    }
+   
+    .heading-dosen {
+         padding-bottom: 0vw;
+     }
+
+    .video-dose {
+      margin-top: 0; /* Adjust margin */
+      height: 40vh;
+      width: auto; /* Adjust width */
+    }
+    .flaschen {
+        display: none;
+    }
+    .dosen {
+        display: none;
+    }
+    .videos-dosen .row {
+      padding-bottom: 2rem; /* Adjust padding */
+    }
+    .text-marke {
+        padding: 3vh 0;
+        margin-left: 5vw;
+        margin-right: 5vw;
+        width: auto;
+        font-family: calibri;
+    }
+  }
+
+  @media (max-width: 375px) {
+    .video-dose {
+        margin-top: 0; /* Adjust margin */
+        height: 30vh;
+        width: auto; /* Adjust width */
+      }
+      .heading-dosen {
+        h1 {
+        font-size: 20pt !important;
+        }
+    }
+    .flasche {
+        height: 95vw;
+        margin-bottom: 1.5em;
+        margin-top: 1.5em;
+    }
+    .flasche2 {
+        height: 95vw;
+        margin-bottom: 1.5em;
+        margin-top: 1.5em;
+    }
+    .craftstoff {
+        font-size: 25pt;
+    }
+  }
