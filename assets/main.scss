@@ -80,6 +80,13 @@
     transform: scale(1.45);
 }
 
+.video-dose2 {
+    margin-top: 10vh;
+    height: 20vw;
+    display: block;
+    margin: auto;
+}
+
 .container-main-point {
     background-color: #e6e6e6;
     overflow-x: hidden;
@@ -169,6 +176,11 @@ a:hover {
       height: 40vh;
       width: auto; /* Adjust width */
     }
+    .video-dose2 {
+        margin-top: 0; /* Adjust margin */
+        height: 40vh;
+        width: auto; /* Adjust width */
+      }
     .flaschen {
         display: none;
     }
@@ -189,6 +201,11 @@ a:hover {
 
   @media (max-width: 375px) {
     .video-dose {
+        margin-top: 0; /* Adjust margin */
+        height: 30vh;
+        width: auto; /* Adjust width */
+      }
+      .video-dose2 {
         margin-top: 0; /* Adjust margin */
         height: 30vh;
         width: auto; /* Adjust width */
