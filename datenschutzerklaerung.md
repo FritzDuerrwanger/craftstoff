@@ -1,9 +1,8 @@
 ---
-layout: page
+layout: default
 title: Datenschutzerklärung
-background: grey
 ---
-
+<div class="datenschutz">
 <h1>Datenschutz<wbr>erklärung</h1>
 <h2 id="m14">Einleitung</h2>
 <p>Mit der folgenden Datenschutzerklärung möchten wir Sie darüber aufklären, welche Arten Ihrer personenbezogenen Daten (nachfolgend auch kurz als "Daten“ bezeichnet) wir zu welchen Zwecken und in welchem Umfang verarbeiten. Die Datenschutzerklärung gilt für alle von uns durchgeführten Verarbeitungen personenbezogener Daten, sowohl im Rahmen der Erbringung unserer Leistungen als auch insbesondere auf unseren Webseiten, in mobilen Applikationen sowie innerhalb externer Onlinepräsenzen, wie z.B. unserer Social-Media-Profile (nachfolgend zusammenfassend bezeichnet als "Onlineangebot“).</p>
@@ -12,7 +11,7 @@ background: grey
 Vertretungsberechtigte Personen: Fritz Dürrwanger <br>
 E-Mail-Adresse: brauerei@goldene-gans.de
 <br>
-Impressum: <a href="https://goldene-gans.de/Impressum" target="_blank">https://goldene-gans.de/Impressum</a> <br>
+Impressum: <a href="https://license.craftstoff.com/Impressum" target="_blank">https://license.craftstoff.com/Impressum</a> <br>
 <h2 id="mOverview">Übersicht der Verarbeitungen</h2><p>Die nachfolgende Übersicht fasst die Arten der verarbeiteten Daten und die Zwecke ihrer Verarbeitung zusammen und verweist auf die betroffenen Personen.</p><h3>Arten der verarbeiteten Daten</h3>
 <ul><li>Kontaktdaten.</li><li>Inhaltsdaten.</li><li>Nutzungsdaten.</li><li>Meta-/Kommunikationsdaten.</li></ul><h3>Kategorien betroffener Personen</h3><ul><li>Kommunikationspartner.</li><li>Nutzer.</li></ul><h3>Zwecke der Verarbeitung</h3><ul><li>Erbringung vertraglicher Leistungen und Kundenservice.</li><li>Kontaktanfragen und Kommunikation.</li><li>Sicherheitsmaßnahmen.</li><li>Verwaltung und Beantwortung von Anfragen.</li><li>Feedback.</li><li>Bereitstellung unseres Onlineangebotes und Nutzerfreundlichkeit.</li><li>Informationstechnische Infrastruktur.</li></ul><h3 id="m13">Maßgebliche Rechtsgrundlagen</h3><p>Im Folgenden erhalten Sie eine Übersicht der Rechtsgrundlagen der DSGVO, auf deren Basis wir personenbezogene Daten verarbeiten. Bitte nehmen Sie zur Kenntnis, dass neben den Regelungen der DSGVO nationale Datenschutzvorgaben in Ihrem bzw. unserem Wohn- oder Sitzland gelten können. Sollten ferner im Einzelfall speziellere Rechtsgrundlagen maßgeblich sein, teilen wir Ihnen diese in der Datenschutzerklärung mit.</p>
  <ul><li><strong>Vertragserfüllung und vorvertragliche Anfragen (Art. 6 Abs. 1 S. 1 lit. b) DSGVO)</strong> - Die Verarbeitung ist für die Erfüllung eines Vertrags, dessen Vertragspartei die betroffene Person ist, oder zur Durchführung vorvertraglicher Maßnahmen erforderlich, die auf Anfrage der betroffenen Person erfolgen.</li><li><strong>Berechtigte Interessen (Art. 6 Abs. 1 S. 1 lit. f) DSGVO)</strong> - Die Verarbeitung ist zur Wahrung der berechtigten Interessen des Verantwortlichen oder eines Dritten erforderlich, sofern nicht die Interessen oder Grundrechte und Grundfreiheiten der betroffenen Person, die den Schutz personenbezogener Daten erfordern, überwiegen.</li></ul><h2 id="m27">Sicherheitsmaßnahmen</h2><p>Wir treffen nach Maßgabe der gesetzlichen Vorgaben unter Berücksichtigung des Stands der Technik, der Implementierungskosten und der Art, des Umfangs, der Umstände und der Zwecke der Verarbeitung sowie der unterschiedlichen Eintrittswahrscheinlichkeiten und des Ausmaßes der Bedrohung der Rechte und Freiheiten natürlicher Personen geeignete technische und organisatorische Maßnahmen, um ein dem Risiko angemessenes Schutzniveau zu gewährleisten.</p>
@@ -46,4 +45,5 @@ United States;</li></ul><h2 id="m182">Kontakt- und Anfragenverwaltung</h2><p>Bei
 
  <p>Ihre Daten werden gelöscht, sofern Ihre Anfrage abschließend beantwortet worden ist und der Löschung keine gesetzlichen Aufbewahrungspflichten entgegenstehen, wie bspw. bei einer sich etwaig anschließenden Vertragsabwicklung.</p>
 
- <p>Bei der Benutzung des Kontaktformulars werden die von Ihnen übermittelten Daten vom externen Anbieter formsubmit.co verarbeitet und unterliegen dessen Datenschutzerklärung. formsubmit.co übermittelt die Daten an brauerei@goldene-gans.de. Weitere Informationen und Widerspruchsmöglichkeiten finden sich in der Datenschutzerklärung von formsubmit.co: https://formsubmit.co/privacy.pdf Wenn Sie uns ohne Verwendung dieser Drittanbieter kontaktieren wollen, können Sie uns eine Email an brauerei@goldene-gans.de schreiben.</p>
+ <p>Bei der Benutzung des Kontaktformulars werden die von Ihnen übermittelten Daten vom externen Anbieter formsubmit.co verarbeitet und unterliegen dessen Datenschutzerklärung. formsubmit.co übermittelt die Daten an marke@craftstoff.com. Weitere Informationen und Widerspruchsmöglichkeiten finden sich in der Datenschutzerklärung von formsubmit.co: https://formsubmit.co/privacy.pdf Wenn Sie uns ohne Verwendung dieser Drittanbieter kontaktieren wollen, können Sie uns eine Email an marke@craftstoff.com schreiben.</p>
+</div>

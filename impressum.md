@@ -1,4 +1,0 @@
----
-layout: ip
-title: Impressum
----
