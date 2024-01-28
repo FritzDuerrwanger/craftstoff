@@ -267,3 +267,9 @@ a:hover {
     margin-bottom: 2rem;
     font-size: 13pt;
   }
+
+  @media (max-width: 1135px){
+    .row.dosen {
+        width: 80% !important;
+    }
+  }
