@@ -273,3 +273,20 @@ a:hover {
         width: 80% !important;
     }
   }
+
+  .bottom-image {
+    background-color: #212121;
+    text-align: center;
+    img {
+   
+    max-height: 50vh;
+    }
+  }
+
+  @media (max-width: 750px) {
+    .bottom-image {
+        img {
+        max-height: 60vw;
+        }
+      }
+  }
