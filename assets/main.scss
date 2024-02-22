@@ -277,18 +277,28 @@ a:hover {
   .bottom-image {
     background-color: #212121;
     text-align: center;
+       
     img {
-   
-    max-height: 50vh;
+        max-height: 50vh;
     }
+
+    @media (max-width: 750px) {
+        img {
+            max-height: 60vw;
+        }    
+      }
   }
 
-  @media (max-width: 750px) {
-    .bottom-image {
-        img {
-        max-height: 60vw;
-        }
-      }
+
+
+  .bottom-plakat {
+    text-align: center;
+    background-color:#212121;
+    @media (max-width: 1560px) {
+    img{
+        width: 100vw;
+    }
+    }
   }
 
   .text-ende
